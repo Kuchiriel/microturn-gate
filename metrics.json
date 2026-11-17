@@ -1,0 +1,35 @@
+{
+ "acc_total": 0.5625,
+ "acc_por_classe": {
+  "RESPOND": 1.0,
+  "WAIT": 0.3333333333333333,
+  "SILENCE": 0.6,
+  "BARGE": 0.0
+ },
+ "matriz": {
+  "RESPOND": {
+   "RESPOND": 5,
+   "WAIT": 0,
+   "SILENCE": 0,
+   "BARGE": 0
+  },
+  "WAIT": {
+   "RESPOND": 2,
+   "WAIT": 1,
+   "SILENCE": 0,
+   "BARGE": 0
+  },
+  "SILENCE": {
+   "RESPOND": 1,
+   "WAIT": 1,
+   "SILENCE": 3,
+   "BARGE": 0
+  },
+  "BARGE": {
+   "RESPOND": 0,
+   "WAIT": 3,
+   "SILENCE": 0,
+   "BARGE": 0
+  }
+ }
+}
